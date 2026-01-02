@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import React from "react";
 
 interface SectionDecorationsProps {
-  variant?: "hero" | "themes" | "timeline" | "faq" | "prizes";
+  variant?: "hero" | "themes" | "timeline" | "faq" | "prizes" | "submissions";
   className?: string;
 }
 
@@ -415,6 +415,136 @@ export const SectionDecorations = ({ variant = "hero", className = "" }: Section
                 clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)"
               }}
             />
+          </>
+        );
+
+      case "submissions":
+        return (
+          <>
+            {/* Large circle with gradient - top left */}
+            <motion.div
+              className="absolute -top-20 -left-20 w-80 h-80 rounded-full"
+              style={{
+                background: "radial-gradient(circle, rgba(200, 61, 173, 0.15) 0%, rgba(222, 95, 185, 0.1) 40%, rgba(0, 0, 0, 0.9) 100%)"
+              }}
+              animate={{
+                scale: [1, 1.1, 1],
+                opacity: [0.3, 0.5, 0.3],
+              }}
+              transition={{
+                duration: 12,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            />
+
+            {/* Code-inspired rectangles - right side */}
+            <motion.div
+              className="absolute top-1/4 -right-16 space-y-6"
+              animate={{
+                x: [-10, 10, -10],
+              }}
+              transition={{
+                duration: 8,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
+              {[...Array(3)].map((_, i) => (
+                <motion.div
+                  key={`submissions-rect-${i}`}
+                  className="rounded-lg"
+                  style={{
+                    width: `${120 + i * 20}px`,
+                    height: `${60 + i * 10}px`,
+                    background: `linear-gradient(135deg, rgba(59, 130, 246, 0.${15 + i * 3}) 0%, rgba(29, 78, 216, 0.${10 + i * 2}) 50%, rgba(0, 0, 0, 0.8) 100%)`
+                  }}
+                  animate={{
+                    rotate: [0, 2, -2, 0],
+                    scale: [1, 1.02, 1],
+                  }}
+                  transition={{
+                    duration: 6 + i * 2,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                    delay: i * 0.5
+                  }}
+                />
+              ))}
+            </motion.div>
+
+            {/* Floating code symbols */}
+            {[...Array(5)].map((_, i) => (
+              <motion.div
+                key={`submissions-symbol-${i}`}
+                className="absolute text-[#C83DAD] text-2xl font-mono opacity-20"
+                style={{
+                  left: `${20 + i * 15}%`,
+                  top: `${30 + (i % 3) * 20}%`,
+                }}
+                animate={{
+                  y: [-10, 10, -10],
+                  opacity: [0.1, 0.3, 0.1],
+                }}
+                transition={{
+                  duration: 4 + i,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  delay: i * 0.3
+                }}
+              >
+                {['{', '}', '[', ']', '('][i % 5]}
+              </motion.div>
+            ))}
+
+            {/* Diamond shapes - bottom center */}
+            <motion.div
+              className="absolute bottom-20 left-1/2 transform -translate-x-1/2 space-x-4 flex"
+              animate={{
+                scale: [1, 1.05, 1],
+              }}
+              transition={{
+                duration: 10,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
+              {[...Array(2)].map((_, i) => (
+                <div
+                  key={`submissions-diamond-${i}`}
+                  className="w-16 h-16"
+                  style={{
+                    background: `linear-gradient(45deg, rgba(244, 129, 201, 0.${12 + i * 3}) 0%, rgba(222, 95, 185, 0.${8 + i * 2}) 50%, rgba(0, 0, 0, 0.8) 100%)`,
+                    clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)"
+                  }}
+                />
+              ))}
+            </motion.div>
+
+            {/* Small circles scattered */}
+            {[...Array(4)].map((_, i) => (
+              <motion.div
+                key={`submissions-circle-${i}`}
+                className="absolute rounded-full"
+                style={{
+                  width: `${40 + i * 8}px`,
+                  height: `${40 + i * 8}px`,
+                  left: `${15 + i * 20}%`,
+                  top: `${60 + (i % 2) * 15}%`,
+                  background: `radial-gradient(circle, rgba(168, 85, 247, 0.${10 + i * 2}) 0%, rgba(124, 58, 237, 0.${8 + i}) 50%, rgba(0, 0, 0, 0.7) 100%)`
+                }}
+                animate={{
+                  scale: [1, 1.2, 1],
+                  opacity: [0.2, 0.4, 0.2],
+                }}
+                transition={{
+                  duration: 5 + i * 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  delay: i * 0.4
+                }}
+              />
+            ))}
           </>
         );
 

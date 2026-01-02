@@ -1,0 +1,876 @@
+{
+    "submissions": [
+        {
+            "_id": "68b1cc9f6e1a187fa01201be",
+            "team_name": "CompileX",
+            "idea_title": "CompileX : An AI-Augmented Explainable & Sustainable Compiler Sandbox",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756482719/iict-hackathon/idea_documents/1756482717499_CompileX___An_AI-Augmented_Explainable_Sustainable_Compiler_Sandbox_ffgcpj.pdf",
+            "participants": [
+                {
+                    "name": "Nikita Kedari",
+                    "github_profile": "https://github.com/Nikita-Kedari",
+                    "linkedin_profile": "https://linkedin.com/in/nikitakedari2511",
+                    "college_or_company_name": "MIT-World Peace University"
+                },
+                {
+                    "name": "Pradnya V. Kulkarni",
+                    "college_or_company_name": "MIT World Peace University"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/folders/10Bhx0q8osL_DYhLW62w2QIWUf-4zVd4z?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/Nikita-Kedari/CompileX--An-AI-Augmented-Explainable-Sustainable-Compiler-Sandbox.git"
+                    },
+                    {
+                        "video": "https://youtu.be/oqh5jcehIZo"
+                    }
+                ],
+                "createdAt": "2025-09-13T17:32:41.569Z",
+                "abstract": "CompileX is an AI-augmented compiler sandbox that addresses the \"black box\" nature of compilers by making them transparent and human-friendly. The system helps developers understand compilation errors, optimization decisions, and performance trade-offs through explainable interfaces. CompileX provides intermediate representation analysis for multiple languages including LLVM IR for C/C++, Java bytecode disassembly, and Python AST analysis with complexity scoring. The tool focuses on sustainability considerations alongside performance optimization, offering developers insights into compiler behavior that were previously opaque.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b1c2806da959f0e8cb8952",
+            "team_name": "iso",
+            "idea_title": "CodeTuner",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756480127/iict-hackathon/idea_documents/1756480127251_CodeTuner_id6lgp.pdf",
+            "participants": [
+                {
+                    "name": "Ketan Suman",
+                    "college_or_company_name": "IIT Kharagpur"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/folders/1CkAa4P6DyCgWMSf1PenoVGosCbYwCesx?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/Ketan73/CodeTuner"
+                    },
+                    {
+                        "video": "https://youtu.be/FCT0clFNaQg"
+                    }
+                ],
+                "createdAt": "2025-09-13T15:12:14.586Z",
+                "abstract": "CodeTuner is an automated tool that empirically determines optimal LLVM compiler pass sequences for a given program. It systematically tests and benchmarks custom pass pipelines against standard optimization levels (-O0 to -O3), providing data-driven recommendations to improve runtime performance and reduce intermediate representation (IR) size. By replacing manual guesswork with measurement, CodeTuner enables workload-specific optimizations that can outperform generic compiler settings.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b195d6d1903db91293fdfd",
+            "team_name": "kernull",
+            "idea_title": "Proposal of an Abstraction Model for Easier Understanding",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756468694/iict-hackathon/idea_documents/1756468694036_Abstraction_Model_compressed_ffglcf.pdf",
+            "participants": [
+                {
+                    "name": "Soham Metha",
+                    "github_profile": "https://github.com/Soham-Metha",
+                    "linkedin_profile": "https://linkedin.com/in/soham-metha",
+                    "college_or_company_name": "Pune Institute Of Computer Technology"
+                },
+                {
+                    "name": "Arfat Kadvekar",
+                    "github_profile": "https://github.com/ArfatKadvekar",
+                    "linkedin_profile": "https://linkedin.com/in/arfat-kadvekar-7b16a8232",
+                    "college_or_company_name": "Pune Institute Of Computer Technology"
+                },
+                {
+                    "name": "Dwij Chaudhari",
+                    "github_profile": "https://github.com/Dwij-063",
+                    "linkedin_profile": "https://linkedin.com/in/dwij-chaudhari-639470330",
+                    "college_or_company_name": "Pune Institute Of Computer Technology"
+                },
+                {
+                    "name": "Shivam Bhuskute",
+                    "github_profile": "https://github.com/ShivamBhuskute",
+                    "linkedin_profile": "https://linkedin.com/in/shivambhuskute",
+                    "college_or_company_name": "Pune Institute Of Computer Technology"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/u/0/folders/1qPAD0mJMKeK40GB7dG_y-Q3x26LpEwgk"
+                    },
+                    {
+                        "repo": "https://github.com/Soham-Metha/IICT_Segfault_2025"
+                    },
+                    {
+                        "video": "https://youtu.be/rGJPjkQO2IM"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:30:00.319Z",
+                "abstract": "The compilation process remains a \"black box\" for most programming students, with existing tools like Godbolt providing verbose, implementation-specific outputs that are inaccessible to beginners. This project presents an explainable compiler environment that breaks down compilation into distinct, intuitive stages through a layered pedagogical model. The system features an explainability-first UI with visual transformations, interactive grammar modification capabilities, AST visualization, and VS Code syntax highlighting extensions. Built using C, Ncurses, and Graphviz, the open-source platform enables learners to modify language rules and observe real-time effects, bridging the gap between theoretical compiler knowledge and practical understanding through progressive feature introduction and pedagogical documentation.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b18dfbba9613f8870ee300",
+            "team_name": "Musical Sockets",
+            "idea_title": "Music Programming Language",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756466683/iict-hackathon/idea_documents/1756466682983_Music_Programming_Language_fv8x1d.pdf",
+            "participants": [
+                {
+                    "name": "Vedanth Padmaraman",
+                    "github_profile": "https://github.com/GlowingScrewdriver",
+                    "linkedin_profile": "https://linkedin.com/in/vedanth-padmaraman",
+                    "college_or_company_name": "PES University"
+                },
+                {
+                    "name": "Vamshi Vishruth J",
+                    "github_profile": "https://github.com/RandomForestPanda",
+                    "linkedin_profile": "https://linkedin.com/in/vamshi-vishruth-j",
+                    "college_or_company_name": "PES University"
+                },
+                {
+                    "name": "Himavarshini Konangi",
+                    "linkedin_profile": "https://linkedin.com/in/himavarshini-k",
+                    "college_or_company_name": "Dayananda Sagar College Of Engineering"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://1drv.ms/p/c/fe74866fc0b96f25/ETPPdQGWN45MnBy0oomFXXUBNllavkmeHn55-Eg7l9P-iQ?e=FToEuc"
+                    },
+                    {
+                        "repo": "https://github.com/GlowingScrewdriver/music-programming"
+                    },
+                    {
+                        "video": "https://youtu.be/Gwusg0jOl_o"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:19:13.508Z",
+                "abstract": "Vaadya is a domain-specific programming language designed specifically for Carnatic music composition and generation. Unlike existing music DSLs that primarily target Western music theory, Vaadya captures the nuanced ornamentations (gamakas) that exist between notes in Indian classical music. The language uses a structured grammar with lists of svaras (notes) and gamakas (ornaments), parsing them into an AST that generates MIDI events. The system renders audio through FluidSynth with SoundFont samples, translating gamakas into pitch bends and frequency oscillations. Vaadya addresses the gap in programmatic expression of Indian classical music, enabling composers to generate authentic Carnatic music with its characteristic microtonal ornamentations.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b18d9dba9613f8870ee2f4",
+            "team_name": "Debug4",
+            "idea_title": "Static Analysis Visualizer for Debugging",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756466589/iict-hackathon/idea_documents/1756466588797_writeup_jvgi3f.pdf",
+            "participants": [
+                {
+                    "name": "Abdun Nihaal",
+                    "github_profile": "https://github.com/nifey",
+                    "college_or_company_name": "IIT Madras"
+                },
+                {
+                    "name": "Omkar Dhawal",
+                    "linkedin_profile": "https://linkedin.com/in/omkar-dhawal",
+                    "college_or_company_name": "IIT Madras"
+                },
+                {
+                    "name": "Divya Rathore",
+                    "github_profile": "https://github.com/divyarathore09",
+                    "college_or_company_name": "IIT Madras"
+                },
+                {
+                    "name": "Anubhab",
+                    "college_or_company_name": "ICSR IIT Madras"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://docs.google.com/presentation/d/14FnZy_ldIqjy8GsYdr2taabp8ZZnJZLTDII5CpFabyU/edit?usp=drive_link"
+                    },
+                    {
+                        "repo": "https://github.com/nifey/static_analysis_viewer"
+                    },
+                    {
+                        "video": "https://youtu.be/bqs5PuM0kNQ"
+                    }
+                ],
+                "createdAt": "2025-09-13T11:27:20.980Z",
+                "abstract": "Static analysis debugging is challenging due to difficulty viewing intermediate results and program flow graphs. The Static Analysis Visualizer addresses this through a framework-agnostic trace file format and interactive graph viewer. Unlike existing solutions tied to specific frameworks like Eclipse+Soot, this tool works across different analysis frameworks and programming languages. The system features lightweight trace generation with minimal code integration, enabling developers to visualize analyzed code graphs and step through analysis results for more effective debugging.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b18642c0c47267fe01b2cc",
+            "team_name": "IRate",
+            "idea_title": "Transparent optimization compiler ledger",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756464705/iict-hackathon/idea_documents/1756464705467_IRate_-_IRate_okhwnr.pdf",
+            "participants": [
+                {
+                    "name": "Prabhjot Singh Bhatia",
+                    "college_or_company_name": "MIT-World Peace University"
+                },
+                {
+                    "name": "Harsh Kansara",
+                    "college_or_company_name": "MIT-World Peace University"
+                },
+                {
+                    "name": "Aneesh Sangvikar",
+                    "college_or_company_name": "MIT-World Peace University"
+                },
+                {
+                    "name": "Ayush Kadali",
+                    "college_or_company_name": "MIT-World Peace University"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/folders/1nWiNuP0sEajL0FO3TxcdlEZ-3H8uXj2E?usp=drive_link"
+                    },
+                    {
+                        "repo": "https://github.com/Prabhjotbh/IRate"
+                    },
+                    {
+                        "video": "https://drive.google.com/drive/folders/1nWiNuP0sEajL0FO3TxcdlEZ-3H8uXj2E?usp=drive_link"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:21:44.487Z",
+                "abstract": "Irate is a powerful tool designed to provide unprecedented visibility into the inner workings of LLVM optimization passes. By intercepting and analyzing each pass, developers gain real-time understanding of how their code is transformed, leading to more efficient debugging and optimization strategies.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b1830de80d8a0d97280a91",
+            "team_name": "FutureForge",
+            "idea_title": "IR2Vec++",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756463885/iict-hackathon/idea_documents/1756463884670_IICT_2025_SegFault_Hackathon_Proposal_fxchnd.pdf",
+            "participants": [
+                {
+                    "name": "Nishant Sachdeva",
+                    "github_profile": "https://github.com/nishant-sachdeva",
+                    "linkedin_profile": "https://linkedin.com/in/nishant-sachdeva",
+                    "college_or_company_name": "Scalable Compilers for Heterogeneous Architectures Group, IIT Hyderabad"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/folders/1IT9C54q6jis3p9V6gYZOvJcCNPvjLE_O?usp=sharing"
+                    },
+                    {
+                        "repo": "https://gist.github.com/nishant-sachdeva/a73f87d6dca8c1c07b2d8bfa1d9c559f"
+                    },
+                    {
+                        "video": "https://youtu.be/ou_Q4TjVoI8"
+                    }
+                ],
+                "createdAt": "2025-09-13T15:59:54.320Z",
+                "abstract": "IR2Vec++ enhances the IR2Vec framework by introducing native Python bindings via pybind11 and integrating LLVM's MemorySSA analysis for flow-aware embeddings. This eliminates subprocess overhead and significantly improves performance—reducing processing time for large modules by two orders of magnitude—while maintaining full correctness. The project provides a scalable, easy-to-integrate Python package to support machine learning-driven compiler research and program analysis.",
+                "status": "finalist"
+            }
+        },
+        {
+            "_id": "68b1817de80d8a0d97280a76",
+            "team_name": "gomodtidy",
+            "idea_title": "Malicious Codepath Execution Detector",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756463484/iict-hackathon/idea_documents/1756463484287_Malicious_Codepath_Execution_Detector_b4gyqg.pdf",
+            "participants": [
+                {
+                    "name": "Madhav Prabhu",
+                    "github_profile": "https://github.com/madhavpcm",
+                    "linkedin_profile": "https://linkedin.com/in/c-m-madhav-prabhu-8184841b8",
+                    "college_or_company_name": "Harness"
+                },
+                {
+                    "name": "Ajay Krishna KV",
+                    "college_or_company_name": "Peliqan"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/file/d/1h0J67LW-nh-OWu55G_7VhSCkAxnqw90K/view?usp=drive_link"
+                    },
+                    {
+                        "repo": "https://github.com/madhavpcm/execray.tracer"
+                    },
+                    {
+                        "video": "https://www.loom.com/share/f2d9c26a20aa45ee86ddc7bd71c9c437?sid=b76d5385-dd85-41da-aaee-c4bdc2137119"
+                    }
+                ],
+                "createdAt": "2025-09-13T17:29:23.598Z",
+                "abstract": "eXe-Ray is a malicious behavior detection tool that enables security researchers to declaratively define suspicious system call patterns using a simple DSL. The system compiles these patterns into lightweight DAGs and uses eBPF-based tracing with a policy engine to detect threats like privilege escalation, reverse shells, ransomware, and keyloggers in live processes. The tool operates machine-agnostically with parallel policy execution for real-time malicious codepath detection.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b18056e80d8a0d97280a67",
+            "team_name": "Booth Hoppers",
+            "idea_title": "DiviniC: A modern Holy C Compiler with JIT Runtime and Lazy Error Handling",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756463190/iict-hackathon/idea_documents/1756463189463_IICT_Submission__DiviniC_qmsy1w.pdf",
+            "participants": [
+                {
+                    "name": "Shreerang Vaidya",
+                    "github_profile": "https://github.com/s-mv",
+                    "linkedin_profile": "https://linkedin.com/in/shreerang-vaidya",
+                    "college_or_company_name": "Vivekanand Education Society's Institute of Technology"
+                },
+                {
+                    "name": "Joel Dias",
+                    "github_profile": "https://github.com/joeldotdias",
+                    "linkedin_profile": "https://linkedin.com/in/joel-dias-882576282",
+                    "college_or_company_name": "Vivekanand Education Society's Institute of Technology"
+                },
+                {
+                    "name": "Lavanya Reddy",
+                    "github_profile": "https://github.com/lava-404",
+                    "linkedin_profile": "https://linkedin.com/in/lavanya-reddy-b85344373",
+                    "college_or_company_name": "Vivekanand Education Society's Institute of Technology"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/file/d/1rNkjLDctyIkEBoWrv9si3eS6MDR-1pVk/view?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/joeldotdias/divinic/"
+                    },
+                    {
+                        "video": "https://youtu.be/Q0NdaynW3W4"
+                    }
+                ],
+                "createdAt": "2025-09-13T19:56:03.972Z",
+                "abstract": "DiviniC is a modern compiler for HolyC, the programming language created by Terry A. Davis for TempleOS, designed to work on contemporary systems. The project features a multi-stage compilation pipeline including a raw cursor for tokenization, token trees for structured parsing with improved error recovery, and a frontend driver (ParseSess) for coordinated analysis. The system generates typed high-level intermediate representation (HIR) from untyped AST, then produces LLVM IR using Inkwell for safe Rust-based code generation. DiviniC provides JIT runtime capabilities, enhanced error reporting with helpful suggestions, and maintains compatibility with the original HolyC specification while offering modern compiler features that were absent in the original TempleOS implementation.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b17c7ce80d8a0d97280a59",
+            "team_name": "LayerX",
+            "idea_title": "Verified Compiler Optimizations: A Lean-Assisted Approach",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756462204/iict-hackathon/idea_documents/1756462204025_Verified_Compiler_Optimizations__A_Lean-Assisted_Approach_tralpn.pdf",
+            "participants": [
+                {
+                    "name": "Aarav Mehta",
+                    "github_profile": "https://github.com/aaravm",
+                    "college_or_company_name": "IIT BHU"
+                },
+                {
+                    "name": "Jinesh Jain",
+                    "github_profile": "https://github.com/Jineshbansal",
+                    "college_or_company_name": "IIT BHU"
+                },
+                {
+                    "name": "Archit Dabral",
+                    "github_profile": "https://github.com/Minimega12121",
+                    "college_or_company_name": "IIT BHU"
+                },
+                {
+                    "name": "Shishir Kushwaha",
+                    "github_profile": "https://github.com/shishir-11",
+                    "college_or_company_name": "IIT BHU"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://github.com/aaravm/alive2/blob/master/lean/README.md"
+                    },
+                    {
+                        "repo": "https://github.com/aaravm/alive2"
+                    },
+                    {
+                        "video": "https://www.loom.com/share/9afd790391de4551b6e6b462c174a073"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:17:21.971Z",
+                "abstract": "This project aims to bridge compiler optimization validation with interactive theorem proving. Alive2 already checks LLVM optimizations for correctness using SMT solvers. Our goal is to automatically generate machine-checked Lean proofs for compiler optimizations, scaling from toy peepholes to optimization pipelines like -O2.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b172ff16e81b598e9c170a",
+            "team_name": "0xPlain",
+            "idea_title": "X-Plain – An Explainable Cross-Hardware AI Compiler",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756459774/iict-hackathon/idea_documents/1756459774446_X-Plain_Project_Document_2_wggrzx.pdf",
+            "participants": [
+                {
+                    "name": "Ashwini Mahendiran",
+                    "github_profile": "https://github.com/Ashwini-developer",
+                    "linkedin_profile": "https://linkedin.com/in/ashwinimahendiran",
+                    "college_or_company_name": "ATMECS Global Inc."
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/folders/1wsxWGYd5wwz-p1Fbkc4aGLBvhYBklzPl?usp=drive_link"
+                    },
+                    {
+                        "repo": "https://github.com/Ashwini-developer/IICT_Hackathon/"
+                    },
+                    {
+                        "video": "https://www.youtube.com/playlist?list=PLXQEtDSSNkvuyhMeUcK4xZB7ktcRkxKU7"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:08:26.572Z",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b16dffea7e2f1414191ae5",
+            "team_name": "Performance Profilers",
+            "idea_title": "OptiDiff - Visual Analyzer for Compiler Optimizations",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756458495/iict-hackathon/idea_documents/1756458494862_Hackathon_Idea_Document_xspqqk.pdf",
+            "participants": [
+                {
+                    "name": "Daanish",
+                    "github_profile": "https://github.com/DaanishD20",
+                    "linkedin_profile": "https://linkedin.com/in/daanish-d-647765229",
+                    "college_or_company_name": "Modelon Engineering Pvt. Ltd."
+                },
+                {
+                    "name": "Surya Venkatesan",
+                    "github_profile": "https://github.com/surya-sh",
+                    "linkedin_profile": "https://linkedin.com/in/surya-venkatesan-8a7647247",
+                    "college_or_company_name": "Modelon Engineering Pvt. Ltd."
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/folders/1lSD-AUm0215y_O7xieXl3tCfAW1cLbyK?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/DaanishD20/OptiDiff_Performance-Profilers"
+                    },
+                    {
+                        "video": "https://youtu.be/0LUXOW8TI3c"
+                    }
+                ],
+                "createdAt": "2025-09-13T13:05:59.579Z",
+                "abstract": "Modern compiler optimization pipelines are often opaque \"black boxes\" that make it difficult to understand the impact of individual optimization passes. OptiDiff is an interactive web-based tool that demystifies the LLVM optimization process by providing visual comparisons of different optimization levels, detailed IR transformations for each pass, and performance analysis. The tool parses debug information from LLVM's opt tool and presents it in an intuitive graphical interface, serving as an educational and debugging utility for developers, students, and compiler engineers.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b16a0bea7e2f1414191ac8",
+            "team_name": "UBqitous",
+            "idea_title": "LLVM-powered deobfuscator",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756457483/iict-hackathon/idea_documents/1756457482579_idea_dk1w8d.pdf",
+            "participants": [
+                {
+                    "name": "Ketan Anand Roy",
+                    "github_profile": "https://github.com/MrRoy09",
+                    "linkedin_profile": "https://linkedin.com/in/ketan-roy-18b51b2a2",
+                    "college_or_company_name": "Indian Institute Of Technology, Roorkee"
+                },
+                {
+                    "name": "Krishna Pandey",
+                    "github_profile": "https://github.com/krishna2803",
+                    "linkedin_profile": "https://linkedin.com/in/krishna2803",
+                    "college_or_company_name": "Indian Institute Of Technology, Roorkee"
+                },
+                {
+                    "name": "Barot Maulik Hirenkumar",
+                    "github_profile": "https://github.com/v1bh475u",
+                    "linkedin_profile": "https://linkedin.com/in/maulik-barot-3855622a6",
+                    "college_or_company_name": "Indian Institute Of Technology, Roorkee"
+                },
+                {
+                    "name": "Rakshit Awasthi",
+                    "github_profile": "https://github.com/0xSh4dy",
+                    "linkedin_profile": "https://linkedin.com/in/rakshit-awasthi-114ba91b9",
+                    "college_or_company_name": "Nutanix"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/file/d/1qPy5MSarcsRl3B-epDA8oHkrqnNHSYbD/view?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/v1bh475u/segfault-2025"
+                    },
+                    {
+                        "video": "https://youtu.be/LL7xpUWf-nI"
+                    }
+                ],
+                "createdAt": "2025-09-13T17:05:54.586Z",
+                "abstract": "UBiquitous is an LLVM-based deobfuscation toolkit designed to reverse advanced binary obfuscation techniques, including control-flow flattening, virtualization, and opaque predicates. It combines dynamic interpretation, taint analysis, and symbolic execution to reconstruct original program semantics and structure, producing clean, analyzable LLVM IR. The tool enables automated recovery of obscured code for security analysis and software protection research.",
+                "status": "finalist"
+            }
+        },
+        {
+            "_id": "68b15d553b8d75e1b577e888",
+            "team_name": "Solo Leveler",
+            "idea_title": "RL based Compiler Optimization",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756454229/iict-hackathon/idea_documents/1756454228930_compiler_rl_qswtfe.pdf",
+            "participants": [
+                {
+                    "name": "Aditya Kumar",
+                    "github_profile": "https://github.com/CyberGenius01",
+                    "linkedin_profile": "https://linkedin.com/in/aditya-kumar-quantml",
+                    "college_or_company_name": "Indian Institute Of Information Technology Sonepat"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/file/d/1wCc_pnVcMjo1zxvJIQGAdjS0AEy5ocjD/view?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/CyberGenius01/llvm-loop-vect"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:09:31.582Z",
+                "abstract": "This project explores the use of Reinforcement Learning (RL) to optimize loop vectorization in the LLVM compiler. By replacing static heuristics with an adaptive RL agent trained on runtime performance feedback, the system learns to make intelligent vectorization decisions tailored to specific program structures. This approach demonstrates the potential of machine learning to enhance compiler optimizations, achieving performance comparable to or exceeding traditional methods while improving generalization across diverse codebases.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b0bee2d434e3d81790c783",
+            "team_name": "we dont know llvm",
+            "idea_title": "Reduced Python Frontend for eBPF",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756413665/iict-hackathon/idea_documents/1756413665429_SegFault_Hackathon_o2pjyi.pdf",
+            "participants": [
+                {
+                    "name": "Pragyansh Chaturvedi",
+                    "github_profile": "https://github.com/r41k0u",
+                    "linkedin_profile": "https://linkedin.com/in/r41k0u",
+                    "college_or_company_name": "Canonical"
+                },
+                {
+                    "name": "Varun R mallya",
+                    "github_profile": "https://github.com/varun-r-mallya",
+                    "linkedin_profile": "https://linkedin.com/in/varun-r-mallya",
+                    "college_or_company_name": "Indian Institute Of Technology, Roorkee"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://docs.google.com/presentation/d/1DsWDIVrpJhM4RgOETO9VWqUtEHo3-c7XIWmNpi6sTSo/edit?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/varun-r-mallya/Python-BPF"
+                    },
+                    {
+                        "video": "https://youtu.be/YUdngJFo57w"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:17:54.589Z",
+                "abstract": "Python-BPF is a Pythonic frontend for writing eBPF programs that addresses the limitations of existing tools like BCC, which require embedding C code within Python as multiline strings. The project implements a reduced Python grammar using decorators to separate BPF code from userspace logic, enabling developers to write kernel-space programs in pure Python syntax. The system converts Python AST to LLVM IR using llvmlite, then compiles to eBPF bytecode through LLVM's BPF backend. Python-BPF supports BPF maps, helper functions, control flow, and kernel tracing while maintaining compatibility with existing Python development tools, providing a cleaner alternative to BCC for writing eBPF programs.",
+                "status": "finalist"
+            }
+        },
+        {
+            "_id": "68b0b1dd644432b18ec1475e",
+            "team_name": "Shftkonflikt",
+            "idea_title": "CSP based Concurrent programming language over esp wifi mesh",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756410332/iict-hackathon/idea_documents/1756410330636_Csp-over-mesh_mrept3.pdf",
+            "participants": [
+                {
+                    "name": "Vijay shankar",
+                    "college_or_company_name": "IBM"
+                },
+                {
+                    "name": "Rajanwita",
+                    "college_or_company_name": "UEM kolkata"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://docs.google.com/document/d/1pSxMMykZXdTIwIw74qSkGUT-016FBpeBFhZJzKwTzu0/edit?tab=t.0"
+                    },
+                    {
+                        "repo": "https://github.com/Temperature-block/mucsp"
+                    }
+                ],
+                "createdAt": "2025-09-13T17:10:27.719Z",
+                "abstract": "Distributed systems and concurrent programming face challenges like synchronization, consensus, and memory access without a unified language solution. This project implements a distributed CSP (Communicating Sequential Processes) language where processes run on heterogeneous systems and communicate through network channels. These channels act as unidirectional, blocking message queues that serve as synchronization points, extending the CSP process algebra model used in modern languages like Go to distributed environments.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68b09e6fd8b3f6da165f740e",
+            "team_name": "CaptainIRS",
+            "idea_title": "DSPLang",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756405358/iict-hackathon/idea_documents/1756405357086_DSPLang_-_CompilerTech_-_Compressed_gjhumz.pdf",
+            "participants": [
+                {
+                    "name": "Rinish Sam",
+                    "github_profile": "https://github.com/CaptainIRS",
+                    "linkedin_profile": "https://linkedin.com/in/rinish-sam",
+                    "college_or_company_name": "-"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/file/d/1YYT2IcNdc_y1_SVIZqBRSp7Yri0j3nch/view"
+                    },
+                    {
+                        "repo": "https://github.com/CaptainIRS/dsplang"
+                    },
+                    {
+                        "video": "https://Demo_and_screenshots_embedded_in_the_PPT"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:13:51.264Z",
+                "abstract": "DSPLang is a domain-specific language targeting Qualcomm's Hexagon NPU that addresses LLVM's inability to effectively utilize ultra-wide 1024-bit HVX vectors. The project introduces two new MLIR dialects (HLHVX and LLHVX) with selective vectorization passes to bridge high-level constructs with HVX instructions. DSPLang demonstrates superior performance over standard LLVM optimization while providing the first open-source pathway for MLIR to target HVX operations, eliminating the need for low-level intrinsics in vector processing applications.",
+                "status": "finalist"
+            }
+        },
+        {
+            "_id": "68b08956f174827fd44fe65b",
+            "team_name": "Barvinok",
+            "idea_title": "Speeding up Quantum Circuit Simulation using Polyhedral Compilation Techniques",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756399957/iict-hackathon/idea_documents/1756399957377_Idea_document_npar1f.pdf",
+            "participants": [
+                {
+                    "name": "Dhairya Baxi",
+                    "linkedin_profile": "https://linkedin.com/in/dhairya-baxi-38908a1b9",
+                    "college_or_company_name": "Indian institute of science, Bengaluru"
+                },
+                {
+                    "name": "Atreyee Bandyopadhyay",
+                    "linkedin_profile": "https://linkedin.com/in/atreyee-bandyopadhyay-672825205",
+                    "college_or_company_name": "Indian institute of science, Bengaluru"
+                },
+                {
+                    "name": "M V V S Manoj Kumar",
+                    "linkedin_profile": "https://linkedin.com/in/mvvsmk",
+                    "college_or_company_name": "AMD"
+                },
+                {
+                    "name": "Shrikar Dongre",
+                    "linkedin_profile": "https://linkedin.com/in/shrikar-dongre-6a56a02ab",
+                    "college_or_company_name": "Veermata Jijabai Technological Institute"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://docs.google.com/presentation/d/1w_LW9QMQHmR4iKguieLUamkA2l82q545EtavNt5MMVA/edit?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/Baxi-codes/Polyqsim/"
+                    },
+                    {
+                        "video": "https://youtu.be/Y3HM-SLxRhE"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:29:01.427Z",
+                "abstract": "Quantum circuit simulation faces scalability challenges as real quantum hardware remains noisy and unreliable. This work applies polyhedral compilation techniques to accelerate quantum simulation through an MLIR pipeline that transforms QASM2 circuits via multiple dialect lowerings. The system uses polyhedral optimizations including tiling, fusion, and parallelization to generate efficient code. Benchmarks demonstrate approximately 20% runtime improvements, showing promise for large-scale quantum algorithm prototyping and quantum neural network applications.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68adf214cbba97c546a41f13",
+            "team_name": "The Optimizers",
+            "idea_title": "HybridFlow: A Static analyzer + ML Scheduler for intelligent CPU/GPU offloading",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756230163/iict-hackathon/idea_documents/1756230162835_Hybridflow_d00zax.pdf",
+            "participants": [
+                {
+                    "name": "S Bala Vignesh Reddy",
+                    "github_profile": "https://github.com/Bala-Vignesh-Reddy",
+                    "linkedin_profile": "https://linkedin.com/in/bala-vignesh-reddy",
+                    "college_or_company_name": "Vishwakarma Government Engineering College"
+                },
+                {
+                    "name": "Harshvardhan Parikh",
+                    "github_profile": "https://github.com/HarshParikh0810",
+                    "linkedin_profile": "https://linkedin.com/in/harshvardhan-parikh-a6b8762b4",
+                    "college_or_company_name": "Vishwakarma Government Engineering College"
+                },
+                {
+                    "name": "Nikunj Bhatt",
+                    "github_profile": "https://github.com/Nikunj2608",
+                    "linkedin_profile": "https://linkedin.com/in/nikunj-bhatt-842845273",
+                    "college_or_company_name": "Vishwakarma Government Engineering College"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/file/d/1Rkez97AILry5BbEoMZ-dzYm_sQmUJ5wG/view"
+                    },
+                    {
+                        "repo": "https://github.com/HarshParikh0810/HybridFlow"
+                    },
+                    {
+                        "video": "https://www.youtube.com/watch?v=ztXlZ301EBg"
+                    }
+                ],
+                "createdAt": "2025-09-13T11:26:42.145Z",
+                "abstract": "HybridFlow is an ML-driven framework for CPU/GPU scheduling that improves efficiency in AI/ML and HPC workloads. By combining code analysis, system monitoring, and an XGBoost model, it predicts the optimal device with up to 94% accuracy. This boosts performance, saves energy, and moves toward smarter, ML-augmented compilers.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68adef1b1117f68a3a411fa9",
+            "team_name": "Blank Point",
+            "idea_title": "EdgeFlow: A DSL for Edge AI pipelines",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1756229403/iict-hackathon/idea_documents/1756229403060_a3063ad8-8dc8-40d3-b610-735ded875632_EdgeFlow_A_DSL_for_Edge_AI_Pipelines_e2ltae.pdf",
+            "participants": [
+                {
+                    "name": "Akash Singh",
+                    "github_profile": "https://github.com/SkySingh04",
+                    "linkedin_profile": "https://linkedin.com/in/skysingh04",
+                    "college_or_company_name": "Dayananda Sagar College Of Engineering"
+                },
+                {
+                    "name": "Dhruv Puri",
+                    "github_profile": "https://github.com/slashexx",
+                    "linkedin_profile": "https://linkedin.com/in/dhruvpuri-slashex",
+                    "college_or_company_name": "Dayananda Sagar College Of Engineering"
+                },
+                {
+                    "name": "Kamini Banait",
+                    "github_profile": "https://github.com/kamini08",
+                    "linkedin_profile": "https://linkedin.com/in/kamini-banait",
+                    "college_or_company_name": "Dayananda Sagar College Of Engineering"
+                },
+                {
+                    "name": "Madhur Kumar",
+                    "github_profile": "https://github.com/MadhurKumar004",
+                    "linkedin_profile": "https://linkedin.com/in/madhur-kumar-6b55a52a1",
+                    "college_or_company_name": "Dayananda Sagar College Of Engineering"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/drive/folders/1ezGd5YwETbLvPZEGL78k_RyFUGWPXCze?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/kamini08/edgeFlow"
+                    },
+                    {
+                        "video": "https://drive.google.com/drive/folders/1-HKeVszxb8mjWiDeuA2hq44TWdSapOZt?usp=sharing"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:13:18.544Z",
+                "abstract": "EdgeFlow is a domain-specific language that simplifies AI model deployment on edge devices by automating complex optimization and hardware-specific tuning. The tool provides a declarative interface that works across multiple platforms (Raspberry Pi, Jetson, Edge TPU, mobile) with a single configuration script. EdgeFlow achieves 71.3% model size reduction, 41.8% faster inference, and 68.7% higher throughput compared to manual deployment methods, eliminating the need for platform-specific expertise and reducing deployment time from weeks to minutes.",
+                "status": "finalist"
+            }
+        },
+        {
+            "_id": "68a71ab5bf26e1b28151b8ab",
+            "team_name": "Q",
+            "idea_title": "Debug Dialect for MLIR",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1755781811/iict-hackathon/idea_documents/1755781808626_dbg4mlir_bhotb5.pdf",
+            "participants": [
+                {
+                    "name": "Robert K Samuel",
+                    "github_profile": "https://github.com/johnmaxrin",
+                    "college_or_company_name": "IIT Madras"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://www.canva.com/design/DAGx5JF3aWc/7NNoCLxmuALptFTrTIVRDA/edit?utm_content=DAGx5JF3aWc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    },
+                    {
+                        "repo": "https://github.com/johnmaxrin/arey"
+                    },
+                    {
+                        "video": "https://youtu.be/cHs05ktRZFQ"
+                    }
+                ],
+                "createdAt": "2025-09-13T11:55:08.369Z",
+                "abstract": "MLIR debugging is difficult without lowering to LLVM IR or using complex toolchains. AREY is an MLIR dialect that enables printf-style debugging directly in MLIR code. It provides operations for printing values, strings, shapes, assertions, timing, and execution counting. Unlike existing debug dialects that attach metadata, AREY enables actual runtime debugging of MLIR programs, making it valuable for developers, beginners, and students working with MLIR.",
+                "status": "finalist"
+            }
+        },
+        {
+            "_id": "68a46279f09005ac55a2d3d1",
+            "team_name": "Matar Paneer",
+            "idea_title": "MoodLang: A DSL for Music and Emotion",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1755603576/iict-hackathon/idea_documents/1755603575056_MoodLang_DSL_unlfnp.pdf",
+            "participants": [
+                {
+                    "name": "Sanya Kapoor",
+                    "github_profile": "https://github.com/sanyakapoor27",
+                    "linkedin_profile": "https://linkedin.com/in/sanya-k-494584261",
+                    "college_or_company_name": "Indira Gandhi Delhi Technical University for Women"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://drive.google.com/file/d/1fLzIKUGBtEq9esNiBMAgOzZfrZnjygMX/view?usp=sharing"
+                    },
+                    {
+                        "repo": "https://github.com/sanyakapoor27/FaultLine"
+                    },
+                    {
+                        "video": "https://drive.google.com/drive/folders/1MXRBliAXHViQde2ETPZJyvnQ8YfqM4q7?usp=sharing"
+                    }
+                ],
+                "createdAt": "2025-09-13T14:17:39.749Z",
+                "abstract": "FaultLine is a domain-specific language (DSL) designed to declaratively define and automate chaos engineering experiments. It enables developers to specify high-level failure scenarios—such as network delays, service crashes, and conditional faults based on system metrics—which are then compiled into platform-specific commands for Docker and Kubernetes. The language promotes portability, readability, and safer experimentation by abstracting low-level infrastructure complexity.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "68a3488ab99aa80bf7d010c9",
+            "team_name": "Chaos Pointer",
+            "idea_title": "BitSmith – DSL for Bit-Level Binary Manipulation",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1755531402/iict-hackathon/idea_documents/1755531401856_SegFault_1_adpshg.pdf",
+            "participants": [
+                {
+                    "name": "Gowri Sankar A",
+                    "github_profile": "https://github.com/sankar-arjunan",
+                    "linkedin_profile": "https://linkedin.com/in/gowri-sankar-a-65a56527b",
+                    "college_or_company_name": "PSG College of Technology, Coimbatore"
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://docs.google.com/presentation/d/1qiDjUtKjIjzRjshY998GKbbQnThWEFAzBypxUJg5OWA/edit"
+                    },
+                    {
+                        "repo": "https://github.com/sankar-arjunan/BitSmith"
+                    },
+                    {
+                        "video": "https://www.youtube.com/watch?v=20crUOSyd3I"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:22:32.397Z",
+                "abstract": "BitSmith is a domain-specific language designed to simplify complex bit manipulation operations through readable syntax and specialized constructs. The language focuses on common bit-level operations including masks, slices, concatenation, and binary arithmetic while providing bit-level optimizations for efficient code generation. BitSmith compiles to C language output, enabling integration into existing projects and embedded systems. The tool addresses the complexity and error-prone nature of manual bit manipulation in traditional programming languages by offering intuitive abstractions for low-level operations.",
+                "status": "non-finalist"
+            }
+        },
+        {
+            "_id": "689f4adf7e703b0f22554fef",
+            "team_name": "Aquarius",
+            "idea_title": "An ESP32-Focused Embedded Development Compiler",
+            "idea_document_url": "https://res.cloudinary.com/digfe37ob/raw/upload/v1755269854/iict-hackathon/idea_documents/1755269854170_Hackathon_Project_idea_omcp8t.pdf",
+            "participants": [
+                {
+                    "name": "Pranav Sharma",
+                    "github_profile": "https://github.com/Magnus-Mage",
+                    "linkedin_profile": "https://linkedin.com/in/psharmamag",
+                    "college_or_company_name": "Real Time Data Services Pvt. Ltd."
+                }
+            ],
+            "submission": {
+                "submission_document_url": [
+                    {
+                        "ppt": "https://docs.google.com/presentation/d/1B-6X4agL9Y1xe2Ya19O4OoJcXfdohN-m/edit?usp=sharing&ouid=115930526581702447445&rtpof=true&sd=true"
+                    },
+                    {
+                        "repo": "https://github.com/Magnus-Mage/Seg-Fault-2025/tree/c-be-op"
+                    },
+                    {
+                        "video": "https://youtu.be/v4R0jsEhuyc"
+                    }
+                ],
+                "createdAt": "2025-09-13T18:19:15.281Z",
+                "abstract": "FORTH-ESP32 is a compiler that translates FORTH source code into optimized C++ for ESP32 microcontrollers. The system addresses FORTH's advantages for embedded development—low memory footprint, predictable performance, and stack-based architecture—while overcoming traditional limitations through compilation to native C++. The compiler implements a four-phase pipeline including tokenization, AST generation, stack effect analysis, and C++ code generation. It supports comprehensive FORTH word dictionaries and generates complete ESP-IDF projects ready for deployment. The tool enables rapid embedded development by combining FORTH's simplicity with ESP32's performance capabilities, making it suitable for IoT sensors, robotics control, and educational projects.",
+                "status": "non-finalist"
+            }
+        }
+    ]
+}

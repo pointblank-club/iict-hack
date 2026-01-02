@@ -200,6 +200,13 @@ const submissionSchema = new mongoose.Schema(
         },
       },
     ],
+    status: {
+      type: String,
+      enum: ["finalist", "not-finalist"],
+    },
+    abstract: {
+      type: String
+    }
 
   },
   {

@@ -1,35 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import defaults from "@/public/images/default.svg";
 import variant from "@/public/images/variant.svg";
-
 // Animation variants removed for better performance on slow systems
 
 export function Hero() {
   // State to manage the hover effect for the logo
   const [isLogoHovered, setIsLogoHovered] = useState(false);
-
-  // Function to track register button clicks
-  // const trackClick = async (buttonType: string) => {
-  //   try {
-  //     await fetch('/api/clickTracking', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify({
-  //         buttonType,
-  //         userAgent: navigator.userAgent,
-  //         referrer: document.referrer,
-  //       }),
-  //     });
-  //   } catch (error) {
-  //     console.error('Failed to track click:', error);
-  //   }
-  // };
 
   return (
     // Set background to black and default text to white
@@ -87,23 +66,14 @@ export function Hero() {
             </p>
           </div>
 
-          {/* Enhanced description */}
-          {/* <div>
-            <p className="text-sm md:text-lg text-white/80 leading-relaxed max-w-2xl mx-auto mb-8 font-inter">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div> */}
-
-          {/* Register Button with white glass effect */}
+          {/* Register/Login/Dashboard Button */}
           <div className="mt-6 sm:mt-8 md:mt-10 px-4">
-            <motion.button
-              className="px-6 sm:px-8 py-3 sm:py-4 text-white/60 font-bold text-base sm:text-lg rounded-xl transition-all duration-300 font-inter
-                         bg-white/5 backdrop-blur-md border border-white/10 shadow-lg
-                         cursor-not-allowed w-full sm:w-auto max-w-xs sm:max-w-none mx-auto"
+            <button
+              className="px-6 sm:px-8 py-3 sm:py-4 text-white font-bold text-base sm:text-lg rounded-full transition-all duration-300 bg-white/10 backdrop-blur-md shadow-lg shadow-gray-400/20 cursor-not-allowed w-full sm:w-auto max-w-xs sm:max-w-none mx-auto opacity-60 border border-white/20"
               disabled
             >
-              Registration Closed
-            </motion.button>
+              Registrations are now closed
+            </button>
           </div>
         </div>
       </div>

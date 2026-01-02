@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import logo from "@/public/images/shortlogo.png";
+import Link from "next/link";
 
 const navLinks = [
   { title: "Home", href: "#" },
@@ -21,6 +22,8 @@ export default function AnimatedNavbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+
+  // Reflect token changes across tabs
   // Function to track register button clicks
   // const trackClick = async (buttonType: string) => {
   //   try {
@@ -91,34 +94,49 @@ export default function AnimatedNavbar() {
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
         {/* Logo */}
-        <a href="#" className="flex-shrink-0">
+        <Link href="/" className="flex-shrink-0">
           {/* Constraining image size with Tailwind classes for better control */}
           <Image src={logo} alt="Logo" className="h-14 w-auto" />
-        </a>
+        </Link>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.title}
               href={link.href}
               className="font-semibold text-[#C83DAD] hover:text-[#A12A89] transition-colors duration-300"
             >
               {link.title}
-            </a>
+            </Link>
           ))}
         </div>
 
-        {/* Register Button */}
+        {/* Right Side: Auth/Account */}
         <div className="hidden md:block">
-          <motion.button
-            className="px-6 py-2 text-white/60 font-bold text-base rounded-full transition-all duration-300
-                          bg-[#C83DAD]/50 shadow-lg shadow-[#C83DAD]/20
-                          cursor-not-allowed"
-            disabled
-          >
-            Registration Closed
-          </motion.button>
+          {/* {isLoggedIn ? (
+            <AccountMenu
+              teamName={teamName}
+              onGoToDashboard={() => router.push('/dashboard')}
+              onLogout={() => {
+                localStorage.removeItem('token');
+                localStorage.removeItem('team_name');
+                setIsLoggedIn(false);
+                setTeamName("");
+                window.dispatchEvent(new Event('auth-updated'));
+                router.push('/');
+              }}
+            />
+          ) : (
+            <motion.button
+              className="px-6 py-2 text-white font-bold text-base rounded-full transition-all duration-300 bg-[#C83DAD] shadow-lg shadow-[#C83DAD]/20 hover:bg-[#A12A89] hover:shadow-[#A12A89]/20 cursor-pointer"
+              onClick={() => router.push('/login')}
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              Login
+            </motion.button>
+          )} */}
         </div>
 
         {/* Mobile Menu Button */}
@@ -149,18 +167,52 @@ export default function AnimatedNavbar() {
                   {link.title}
                 </a>
               ))}
-              <motion.button
-                className="px-8 py-4 text-white/60 font-bold text-xl rounded-full transition-all duration-300 mt-8
-                          bg-[#C83DAD]/50 shadow-lg shadow-[#C83DAD]/20
-                          cursor-not-allowed"
-                disabled
-              >
-                Registration Closed
-              </motion.button>
+              {/* {isLoggedIn ? (
+                <div className="mt-8">
+                  <AccountMenu
+                    teamName={teamName || 'Team'}
+                    onGoToDashboard={() => { setIsMenuOpen(false); router.push('/dashboard'); }}
+                    onLogout={() => {
+                      setIsMenuOpen(false);
+                      localStorage.removeItem('token');
+                      localStorage.removeItem('team_name');
+                      setIsLoggedIn(false);
+                      setTeamName("");
+                      window.dispatchEvent(new Event('auth-updated'));
+                      router.push('/');
+                    }}
+                  />
+                </div>
+              ) : (
+                <motion.button
+                  className="px-8 py-4 text-white font-bold text-xl rounded-full transition-all duration-300 mt-8 bg-[#C83DAD] shadow-lg shadow-[#C83DAD]/20 hover:bg-[#A12A89] hover:shadow-[#A12A89]/20 cursor-pointer"
+                  onClick={() => { setIsMenuOpen(false); router.push('/login'); }}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  Login
+                </motion.button>
+              )} */}
             </div>
           </div>
         )}
       </AnimatePresence>
+
+      {/* Logout Confirmation Modal */}
+      {/* {showLogoutConfirm && (
+        <div className="fixed inset-0 z-40 bg-black/80 backdrop-blur-lg md:hidden">
+          <ConfirmLogout
+            open={showLogoutConfirm}
+            onCancel={() => setShowLogoutConfirm(false)}
+            onConfirm={() => {
+              localStorage.removeItem('token');
+              setShowLogoutConfirm(false);
+              window.dispatchEvent(new Event('auth-updated'));
+              router.push('/');
+            }}
+          />
+        </div>
+      )} */}
     </>
   );
 }
